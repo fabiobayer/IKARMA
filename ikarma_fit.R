@@ -409,6 +409,7 @@ ikarma.fit<- function (y, ar, ma, link, names_phi,names_theta,names_beta,diag,h1
       theta = d[(p1+2):(p1+q1+1)]
       prec <- d[p1+q1+2] 
       omega1 <- d[p1+q1+3]
+      omega2 <- d[p1+q1+4]
 
       error<-rep(0,n) 
       eta1<- eta2<- s <- rep(NA,n)
